@@ -18,7 +18,7 @@ from google.colab import userdata
 from langchain_community.tools import DuckDuckGoSearchRun
 from crewai.tools import tool  
 from crewai import Agent, Task, Crew, Process, LLM # <--- Added LLM import
-
+# API_KEY= AQ.Ab8RN6Lpr13Ebug8ljWLuHwgzFieuX0WWfX_rujroogF5VkEmg
 # Validate and ingest secret API token
 try:
     gemini_key = userdata.get('GEMINI_API_KEY')
